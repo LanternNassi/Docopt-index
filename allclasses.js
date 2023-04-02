@@ -109,11 +109,11 @@ class Person{
         this.room = false
     }
     create = (type,name,accomodation) => {
-        if (this.type == 'Fellow'){
+        if (type == 'Fellow'){
             this.type = 'Fellow'
         }
-        if (this.accomodation == 'N'){
-            this.accomodation = 'Y'
+        if (accomodation == 'N'){
+            this.accomodation = 'N'
         }
         console.log(this.type.concat([' ' , this.name , ' created with accomodation ',this.accomodation]))
     }
