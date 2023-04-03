@@ -1,0 +1,9 @@
+{
+  "name": "Nessim",
+  "version": "0.0.1",
+  "description": "Just a project",
+  "main": "index.js",
+  "repository": "https://github.com/LanternNassi/Docopt-index.git",
+  "author": "LanternNassi <Lanternnassi@gmail.com>",
+  "license": "MIT"
+}
